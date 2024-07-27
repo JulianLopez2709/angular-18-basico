@@ -1,0 +1,11 @@
+<h1>Games Play</h1>
+<div>
+
+    <ul>
+        @for (item of games; track item.id) {
+            <li (click)="fav(item.name)">{{item.name}}</li>
+        }
+    </ul>
+
+    <p>{{username}}</p>
+</div>

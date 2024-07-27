@@ -1,0 +1,19 @@
+section{
+    max-width: 500px;
+    margin: 0 auto;
+    padding-top: 32px;
+    font-size: 24px;
+}
+
+img{
+    height: 64px;
+    width: 64px;
+    border-radius: 300px;
+    
+}
+
+div{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

@@ -1,3 +1,11 @@
+# Comandos necesarios para empezar 
+
+ng serve -> inicia proyecto
+ng generate components x -> crear componente x = name 
+hay diferentes tipos de comunicacion @Input() variable = "" -> hacia adelante 
+@Output() variable = new EventEmitent<string>() -> hacia atras ejemplo en el componente game con user
+los diferente metodos de cargar @defer(){} @loading{} @placeholder{}
+
 # Angular18
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.1.2.
